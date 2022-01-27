@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+
+}
+
+.header{
+        .container{
+                width: 70%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                .logo{
+                        height: 20px;
+                        align-self: center;
+                }
+                .nav{
+                        display: flex;
+                        justify-content: space-around;
+
+
+                        .nav-ul{
+                                font-family: Raleway;
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 12px;
+                                line-height: 14px;
+                                display: flex;
+                                justify-content: space-around;
+                                align-items: center;
+                                text-decoration-line: none;
+                                list-style-type: none;
+                                color: black;
+                                margin-left: 30px;
+                        }
+                }
+        }
+}
+section{
+        margin-top: 50px;
+        .container{
+                width: 70%;
+                margin: auto;
+                display: flex;
+                gap: 50px;
+
+                .img{
+                        width: 460px;
+                }
+                .R-side{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .content{
+                                display: flex;
+                                gap: 20px;
+                                .head{
+                                        h1{
+                                                font-family: Raleway;
+                                                font-style: normal;
+                                                font-weight: 900;
+                                                font-size: 96px;
+                                                line-height: 96px;
+                                                margin: 0%;
+                                        }
+                                        p{
+                                                font-family: Raleway;
+                                                font-style: normal;
+                                                font-weight: normal;
+                                                font-size: 14px;
+                                                line-height: 18px;
+                                        }
+                                }
+                                .side{
+                                        .bold{
+                                                font-family: Raleway;
+                                                font-style: normal;
+                                                font-weight: bold;
+                                                font-size: 14px;
+                                                line-height: 18px;
+                                        }
+                                        .grey{     
+                                                font-family: Raleway;
+                                                font-style: normal;
+                                                color: #333333;
+                                                font-size: 14px;
+                                                line-height: 18px;
+                                        }
+                                        .discount{
+                                                font-family: Raleway;
+                                                font-style: normal;
+                                                font-weight: normal;
+                                                font-size: 18px;
+                                                line-height: 18px;
+                                                color:white;
+                                                display: flex;
+                                                align-items:center;
+                                                justify-content: center;
+                                                background-color: #EB5757;
+                                                width: 191px;
+                                                height: 68px;
+                                        }
+                                }
+                }
+                .second{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .paragrf{
+                                font-family: Raleway;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 14px;
+                                line-height: 18px;
+                                padding-bottom: 80px;
+                        }
+        
+                        .foot{
+                                position: relative;
+                                flex: end;
+                                h3{
+                                        font-family: Raleway;
+                                        font-style: normal;
+                                        font-weight: bold;
+                                        font-size: 18px;
+                                        line-height: 18px;
+                                }
+                                ul{
+                                        display: flex;
+                                        list-style-type: none;
+                                        justify-content: space-between;
+                                        margin: 0%;
+                                        padding: 0%;
+                                }
+                        }
+                }
+
+                }
+        }
+}
